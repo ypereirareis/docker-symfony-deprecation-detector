@@ -20,10 +20,6 @@ Default options are : `check src/ vendor/` as you can see in the [Dockerfile](Do
 
 ```shell
 
-make start
-
-OR
-
 docker run -it --rm \
   -v `pwd`:/app \
     ypereirareis/symfony-deprecation-detector
