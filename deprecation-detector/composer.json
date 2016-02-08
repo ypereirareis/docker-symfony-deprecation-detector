@@ -1,0 +1,43 @@
+{
+    "name": "sensiolabs-de/deprecation-detector",
+    "type": "application",
+    "description": "Command line tool to detect usage of deprecated code",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marvin Klemp",
+            "email": "marvin.klemp@sensiolabs.de"
+        },
+        {
+            "name": "The SensioLabs Deutschland Team",
+            "email": "opensource@sensiolabs.de"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.9",
+        "nikic/php-parser": "^1.3",
+        "symfony/console": "^2.6 || ^3.0",
+        "symfony/finder": "^2.6 || ^3.0",
+        "phpdocumentor/reflection-docblock": "~2.0",
+        "symfony/stopwatch": "^2.7 || ^3.0",
+        "symfony/filesystem": "^2.7 || ^3.0",
+        "symfony/dependency-injection": "^2.7 || ^3.0",
+        "symfony/config": "^2.7 || ^3.0",
+        "symfony/expression-language": "^2.7 || ^3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.8.*",
+        "mikey179/vfsStream": "^1.0"
+    },
+    "bin": ["bin/deprecation-detector"],
+    "autoload": {
+        "psr-4": {
+            "SensioLabs\\DeprecationDetector\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "SensioLabs\\DeprecationDetector\\Tests\\": "tests/"
+        }
+    }
+}
