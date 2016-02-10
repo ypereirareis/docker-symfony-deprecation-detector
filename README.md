@@ -1,6 +1,10 @@
 # Docker Symfony Deprecation Detector
 
 [![Build Status](https://travis-ci.org/ypereirareis/docker-symfony-deprecation-detector.svg?branch=master)](https://travis-ci.org/ypereirareis/docker-symfony-deprecation-detector)
+[![Docker Stars](https://img.shields.io/docker/stars/ypereirareis/symfony-deprecation-detector.svg)]()
+[![ImageLayers Size](https://img.shields.io/imagelayers/image-size/ypereirareis/symfony-deprecation-detector/latest.svg)]()
+[![Docker Pulls](https://img.shields.io/docker/pulls/ypereirareis/symfony-deprecation-detector.svg)]()
+[![ImageLayers Layers](https://img.shields.io/imagelayers/layers/ypereirareis/symfony-deprecation-detector/latest.svg)]()
 
 A docker image to run [Symfony Deprecation Detector](https://github.com/sensiolabs-de/deprecation-detector)
 
